@@ -2018,7 +2018,7 @@ jobs:
   release:
     permissions:
       contents: write  # for softprops/action-gh-release to create a release
-    needs: [setup, android, harmonyos, ios, ios-simulator, armlinux, macos, mac-catalyst, watchos, watchos-simulator, tvos, tvos-simulator, visionos, visionos-simulator, windows, ubuntu, webassembly, apple, devboard]
+    needs: [setup, android]
     runs-on: ubuntu-latest
     steps:
     - name: download
